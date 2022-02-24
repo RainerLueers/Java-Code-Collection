@@ -31,7 +31,7 @@ Status zugreifen und entsprechend handeln.
 Ein reales Beispiel für ein Beobachtermuster könnte ein Notrufsystem für Feuerwehrleute
 sein, die immer über den Status der zentralen Notrufannahmestelle informiert werden wollen.
 
-Wenn also der Status der in der Zentrale auf "Alarm" geändert wird, erhalten alle 
+Wenn also der Status in der Zentrale auf "Alarm" geändert wird, erhalten alle 
 registrierten Feuerwehrmänner eine Benachrichtigung.  
 
 Ein Feuerwehrmann kann sich jederzeit bei der Zentrale registrieren oder 
@@ -231,7 +231,16 @@ public class Main {
     }
 }
 ```
-
+**Output**
+```
+run:
+FireFighterOne: Stand by - it's burning...
+FireFighterTwo: Stand by - it's burning...
+FireFighterThree: Stand by - it's burning...
+FireFighterTwo: Stump up - work done!
+FireFighterThree: Stump up - work done!
+BUILD SUCCESSFUL (total time: 0 seconds)
+```
 
 
 
