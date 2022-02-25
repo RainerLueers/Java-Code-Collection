@@ -79,7 +79,15 @@ public class Immutable {
     }
 }
 ```
-
+**Output**
+```
+run:
+Porsche
+911 Carrera
+200 PS
+3000 ccm
+BUILD SUCCESSFUL (total time: 0 seconds)
+```
 
 
 
