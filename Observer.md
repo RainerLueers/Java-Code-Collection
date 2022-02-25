@@ -200,7 +200,7 @@ public final class AlertText {
     }
 }
 ```
-**Class Main**
+**Class Main - main()**
 ```
 package observer;
 

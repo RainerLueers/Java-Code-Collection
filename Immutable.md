@@ -54,7 +54,7 @@ public final class Car {
 }
 
 ```
-**Class Main**
+**Class Immutable - main()**
 ```
 package immutable;
 

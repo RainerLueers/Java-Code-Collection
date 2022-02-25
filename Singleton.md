@@ -11,7 +11,7 @@ Es besteht die große Gefahr, durch übermäßige Verwendung von Singletons ein
 Äquivalent zu globalen Variablen zu implementieren und dann prozedural statt 
 objektorientiert zu programmieren.  
 
-***Singleton class***  
+**Singleton class**  
 ```
 /*
  * Java-Code-Collection
@@ -60,7 +60,7 @@ public class SingleClass {
 }
 ```
 
-***Main class***  
+**Class Main - main()**  
 
 ```
 package singleton;
@@ -85,7 +85,7 @@ public class Main {
     }
 }
 ```
-***Output***  
+**Output**  
 
 ```
 run:
