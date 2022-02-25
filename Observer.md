@@ -64,6 +64,11 @@ Objekts zu verwendenden Operationen definiert.
 
 **Subjekt als Interface**
 ```
+/*
+ * Java-Code-Collection
+ * @version: 24.02.2022
+ * @copyright © 2022 Rainer Lüers - all rights reserved
+ */
 package observer;
 
 /**
@@ -173,7 +178,7 @@ public class FireFighterThree implements Observer {
 }
 ```
 **Das Objekt für die konkrete Nachricht**  
-*Class AlertText ist "**Immutable**" und somit vor ungewollte Änderungen geschützt!*
+*Class AlertText ist <a href="Immutable.html" target="_blank" rel="noopener noreferrer" >Immutable</a> und somit vor ungewollte Änderungen geschützt!*
 
 ```
 package observer;
@@ -182,9 +187,9 @@ package observer;
  *
  * @author rainer
  */
-public class AlertText {
+public final class AlertText {
 
-    final String alertText;
+    private final String alertText;
 
     public AlertText(String m) {
         this.alertText = m;
