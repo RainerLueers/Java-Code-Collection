@@ -7,6 +7,7 @@ title: Java - Code Collection
 * <a href="Observer.html" target="_blank" rel="noopener noreferrer" >Observer</a>
 * <a href="Immutable.html" target="_blank" rel="noopener noreferrer" >Immutable</a>
 * <a href="Factory.html" target="_blank" rel="noopener noreferrer" >Factory</a>
+* <a href="Iterator.html" target="_blank" rel="noopener noreferrer" >Iterator</a>
 
 
 
